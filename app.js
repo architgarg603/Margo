@@ -13,7 +13,7 @@ app.use(express.static(__dirname+"/public"));
 
 // view engine se
 app.set("view engine" , "ejs");
-app.set("views" , path.join(__dirname,"View"));
+app.set("views" , path.join(__dirname,"view"));
 
 app.use("/",viewRouter );
 
