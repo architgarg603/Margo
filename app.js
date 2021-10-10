@@ -15,7 +15,7 @@ app.use(express.static(__dirname+"/public"));
 app.set("view engine" , "ejs");
 app.set("views" , path.join(__dirname,"View"));
 
-app.use("",viewRouter );
+app.use("/",viewRouter );
 
 let port = process.env.PORT || 3000  
 app.listen(port, function () {
