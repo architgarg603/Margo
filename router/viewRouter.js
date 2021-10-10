@@ -18,7 +18,7 @@ viewRouter.get("/products",getProducts)
 viewRouter.get("signin",getSignin)
 viewRouter.get("/tracker",getTracker)
 viewRouter.get("/profile",getProfile)
-viewRouter.get("", getLanding)
+viewRouter.get("/", getLanding)
 
 module.exports = viewRouter
 
