@@ -184,7 +184,7 @@
 	<script>
 		function AlertHandler(){
 			alert("Your order has been placed!");
-			localStorage.setItem("cart","[]")
+			localStorage.setItem("cart",JSON.stringify({}))
 			window.location.href="/products"
 		}
 	</script>
