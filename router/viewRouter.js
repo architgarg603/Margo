@@ -7,6 +7,7 @@ const {
   getSignin,
   getTracker,
   getProfile,
+  getForum,
 } = require("../controller/viewController")
 const express = require("express");
 const { protectRoute } = require("../controller/authController");
@@ -20,6 +21,7 @@ viewRouter.get("/products",getProducts)
 viewRouter.get("/signin",getSignin)
 viewRouter.get("/tracker",getTracker)
 viewRouter.get("/profile",getProfile)
+viewRouter.get("/forum",getForum)
 viewRouter.get("", getLanding)
 
 module.exports = viewRouter

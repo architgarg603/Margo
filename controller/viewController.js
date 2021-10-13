@@ -50,6 +50,13 @@ const getProfile = (req, res) => {
     res.redirect("/signin")
   }
 };
+const getForum = (req, res) => {
+  if(req.id){
+    res.render("forum.ejs");
+  }else{
+    res.redirect("/signin")
+  }
+};
 
 module.exports = {
     getBlog,
@@ -59,5 +66,6 @@ module.exports = {
     getpamper,
     getSignin,
     getTracker,
-    getProfile
+    getProfile,
+    getForum
 }

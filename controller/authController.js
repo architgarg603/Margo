@@ -27,6 +27,18 @@ async function protectRoute(req, res, next) {
   }
 }
 
+const getMail = async (req, res) => {
+  try {
+    res.status(200).json({
+      id: req.id,
+    });
+  } catch (error) {
+    res.status(500).json({
+      msg: "failed",
+    });
+  }
+};
+
 async function logout(req, res) {
   try {
     res.clearCookie("jwt");
@@ -41,3 +53,4 @@ async function logout(req, res) {
 module.exports.login = login;
 module.exports.protectRoute = protectRoute;
 module.exports.logout = logout;
+module.exports.getMail = getMail;
