@@ -1,26 +1,54 @@
 const getBlog = (req, res) => {
-  res.render("blog.ejs");
+  if(req.id){
+    res.render("blog.ejs");
+  }else{
+    res.redirect("/signin")
+  }
 };
 const getCart = (req, res) => {
-  res.render("cart.ejs");
+  if(req.id){
+    res.render("cart.ejs");
+  }else{
+    res.redirect("/signin")
+  }
 };
 const getLanding = (req, res) => {
   res.render("landing.ejs");
 };
 const getpamper = (req, res) => {
-  res.render("pamperBooth.ejs");
+  if(req.id){
+    res.render("pamperBooth.ejs");
+  }else{
+    res.redirect("/signin")
+  }
 };
 const getProducts = (req, res) => {
-  res.render("products.ejs");
+  if(req.id){
+    res.render("products.ejs");
+  }else{
+    res.redirect("/signin")
+  }
 };
 const getSignin = (req, res) => {
-  res.render("signIn.ejs");
+  if(req.id){
+    res.redirect("/")
+  }else{
+    res.render("signIn.ejs");
+  }
 };
 const getTracker = (req, res) => {
-  res.render("tracker.ejs");
+  if(req.id){
+    res.render("tracker.ejs");
+  }else{
+    res.redirect("/signin")
+  }
 };
 const getProfile = (req, res) => {
-  res.render("userProfile.ejs");
+  if(req.id){
+    res.render("userProfile.ejs");
+  }else{
+    res.redirect("/signin")
+  }
 };
 
 module.exports = {

@@ -9,8 +9,10 @@ const {
   getProfile,
 } = require("../controller/viewController")
 const express = require("express");
+const { protectRoute } = require("../controller/authController");
 const viewRouter = express.Router();
 
+viewRouter.use(protectRoute)
 viewRouter.get("/cart",getCart)
 viewRouter.get("/blog",getBlog)
 viewRouter.get("/pamperBooth",getpamper)
