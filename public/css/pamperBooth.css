@@ -12,7 +12,7 @@ body{
 }
 
 :root{
-    --brand-color: #fe7d6a;
+    --brand-color: #fa9f91;
     --pallette-pink: #faa1b3;
     --pallette-blue: #7393fa;
     --pallette-skin: #fcf3ef;
@@ -124,12 +124,19 @@ a:hover{
     position:absolute;
     width:140px;
     height:55.125px;
-    right:60px;
+    right:100px;
     top:11px; 
     color:#fff;
     font-family:var(--font-Karla); 
     font-size:20px;
     border:none;
+}
+
+.start-here a{
+    color:white;
+}
+.start-here a:hover{
+    color:white;
 }
 
 /*
@@ -172,7 +179,7 @@ font-weight: bold;
 font-size: 44px;
 line-height: 51px;
 
-color: #FE7D6A;
+color: #fa9f91;
 }
 
 /*
@@ -201,7 +208,7 @@ font-family: var(--font-Karla);
 font-size: 36px;
 line-height: 51px;
 
-color: #FE7D6A;
+color: #fa9f91;
 }
 
 .emotions-image{
@@ -287,7 +294,7 @@ font-family: var(--font-Karla);
 font-size: 36px;
 line-height: 51px;
 
-color: #FE7D6A;
+color: #fa9f91;
 }
 
 .music-image{
@@ -342,7 +349,7 @@ font-family: var(--font-Karla);
 font-size: 36px;
 line-height: 51px;
 
-color: #FE7D6A;
+color: #fa9f91;
 }
 
 .notifications-button{
@@ -352,7 +359,7 @@ height: 60px;
 left: 538px;
 top: 1800px;
 
-background: #FE7D6A;
+background: #fa9f91;
 border-radius: 10px;
 border:none;
 }
@@ -364,7 +371,7 @@ height: 60px;
 left: 54px;
 top: 1800px;
 
-border: 2px solid #FE7D6A;
+border: 2px solid #fa9f91;
 box-sizing: border-box;
 border-radius: 10px;
 
@@ -377,7 +384,7 @@ padding:25px;
 
 #notifications-email:focus{
     outline: none;
-    box-shadow: 0 0 0 1px #FE7D6A;
+    box-shadow: 0 0 0 1px #fa9f91;
 }
 
 

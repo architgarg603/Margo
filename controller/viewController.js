@@ -65,6 +65,13 @@ const getConnect = (req,res)=>{
     res.redirect("/signin")
   }
 }
+const getVideoCall = (req, res) => {
+  if(req.id){
+    res.render("videoCall.ejs");
+  }else{
+    res.redirect("/signin")
+  }
+};
 
 module.exports = {
     getBlog,
@@ -77,4 +84,5 @@ module.exports = {
     getProfile,
     getForum,
     getConnect
+    getVideoCall
 }

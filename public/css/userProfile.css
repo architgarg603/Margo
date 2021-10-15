@@ -22,7 +22,7 @@
     height: 50px;
     width: 250px;
     cursor: pointer;
-    background-color: #7393FA;
+    background-color: #fa9f91;
     border-radius: 10px;
     margin: 20px;
     display: flex;
@@ -55,7 +55,7 @@
 .column1{
     height: 100%;
     width: 20%;
-    background-color: #7393FA;
+    background-color: #fa9f91;
     padding: 2% 0%;
 }
 .column2{
@@ -254,7 +254,7 @@
     justify-content: space-between;
     padding: 2%;
     align-items: center;
-    border-bottom: 6px inset #7393FA;
+    border-bottom: 6px inset #fa9f91;
     /* padding-left: 20%; */
   }
   .common i {
@@ -291,7 +291,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FE7D6A;
+    background-color: #fa9f91;
     cursor: pointer;
     font-weight: 600;
     margin-left: 10px;
@@ -301,7 +301,7 @@
   
   .reqBtn, .editBtn, .saveBtn,.ProfilecloseBtn, .ProfilecancelBtn, .status, .cancelinProfile{
     width: 400px;
-    background-color: #7393FA;
+    background-color: #fa9f91;
     height: 40px;
     font-size: large;
     font-weight: 600 !important;
@@ -519,4 +519,8 @@
   }
   .saveBtn{
     display: flex;
+  }
+
+  a{
+    font-weight: bold;
   }

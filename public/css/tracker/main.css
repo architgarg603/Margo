@@ -4,13 +4,13 @@
 :root {
   --c-main-text: #333;
   --c-main-bg: white;
-  --c-theme-first: #fe7d6a;
+  --c-theme-first: #fa9f91;
   --c-theme-second: white;
   --c-secondary-text: black;
   --c-secondary-bg: white;
-  --brand-color: #fe7d6a;
+  --brand-color: #fa9f91;
   --pallette-pink: #faa1b3;
-  --pallette-blue: #fe7d6a;
+  --pallette-blue: #fa9f91;
   --pallette-skin: #fcf3ef;
   --font-Karla: 'Karla', sans-serif;
   --font-Zilla: 'Zilla Slab', serif;
@@ -43,7 +43,7 @@ body, input, button {
   font-family: Arial, sans-serif;
 }
 a {
-  color: #fe7d6a;
+  color: #fa9f91;
   text-decoration: none;
 }
 label, button, input[type=button], input[type=submit], input[type=reset] {
@@ -51,7 +51,7 @@ label, button, input[type=button], input[type=submit], input[type=reset] {
   cursor: pointer;
   height: 40px;
   width: 120px;
-  background-color: #fe7d6a;
+  background-color: #fa9f91;
   color: white;
   font-weight: 600;
   border: none;
@@ -164,14 +164,19 @@ li{
     position:absolute;
     width:140px;
     height:55.125px;
-    left:1227px;
+    left:1327px;
     top:11px; 
     color:#fff;
     font-family:var(--font-Karla); 
     font-size:20px;
     border:none;
 }
-
+.start-here a{
+  color:white;
+}
+.start-here a:hover{
+  color:white;
+}
 /*
 ********************
 Navbar Finished
@@ -196,7 +201,7 @@ Navbar Finished
 /*=== header */
 .main-header {
   align-items: center;
-  background-color: #fe7d6a;
+  background-color: #fa9f91;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -346,7 +351,7 @@ Navbar Finished
 }
 .add-form__date {
   background: transparent;
-  border: 4px solid #fe7d6a;
+  border: 4px solid #fa9f91;
   border-radius: 20px;
   font-size: inherit;
   margin: var(--gap) 0;
@@ -356,7 +361,7 @@ Navbar Finished
   position: absolute;
   bottom: 39px;
     left: -45px;
-  color: #fe7d6a;
+  color: #fa9f91;
   font-weight: bold;
 }
 .add-form__button {
@@ -429,7 +434,7 @@ Navbar Finished
   font-size: 25px;
   margin-bottom: calc(var(--gap) * 2);
   font-weight: bold;
-  color: #fe7d6a;
+  color: #fa9f91;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -445,7 +450,7 @@ Navbar Finished
 .home__next, .home__countdown, .home__counter {
   font-size: 22px;
   font-weight: bold;
-  color: #fe7d6a;
+  color: #fa9f91;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -482,7 +487,7 @@ Navbar Finished
     margin-top: 20px;
     height: 57px;
     width: 151px;
-    background-color: #fe7d6a;
+    background-color: #fa9f91;
     display: flex;
     justify-content: center;
     margin-left: 680px;
@@ -493,7 +498,7 @@ Navbar Finished
 
 /*=== calendar */
 .calendar {
-  background: #FE7D6A;
+  background: #fa9f91;
   border-spacing: 1px;
   text-align: center;
   width: 100%;
@@ -554,7 +559,7 @@ Navbar Finished
   display: none;
 }
 .calendar__day--today {
-  box-shadow: inset 0px 0px 0px 5px #FE7D6A;
+  box-shadow: inset 0px 0px 0px 5px #fa9f91;
 }
 .calendar__day--selected {
   background: var(--c-theme-second);
