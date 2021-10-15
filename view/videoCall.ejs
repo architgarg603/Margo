@@ -37,7 +37,7 @@
         <h1 class="video-heading">
           Video Call with Loved One to get The Support You Deserve
         </h1>
-        <div style="position: relative; margin-top: 20px;">
+        <div style="position: relative; margin-top: 20px">
           <input
             class="video-input"
             type="text"
@@ -58,8 +58,12 @@
     <script>
       const call = async () => {
         try {
+          if (document.querySelector(".video-input").value.length == 0) return;
+          let arr = document.querySelector(".video-input").value.split(",");
+          let mails = arr.map((mail) => mail.trim());
+          console.log(mails);
           let res = await axios.post("http://localhost:3000/call/connect", {
-            mail: "architgarg603@gmail.com",
+            mail: mails,
           });
           window.location.href = res.data.link;
         } catch (err) {
