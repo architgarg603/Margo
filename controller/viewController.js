@@ -58,6 +58,14 @@ const getForum = (req, res) => {
   }
 };
 
+const getConnect = (req,res)=>{
+  if(req.id){
+    res.render("call.ejs");
+  }else{
+    res.redirect("/signin")
+  }
+}
+
 module.exports = {
     getBlog,
     getCart,
@@ -67,5 +75,6 @@ module.exports = {
     getSignin,
     getTracker,
     getProfile,
-    getForum
+    getForum,
+    getConnect
 }

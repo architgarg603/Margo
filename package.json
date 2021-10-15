@@ -8,8 +8,10 @@
     "firebase": "^9.1.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.10",
+    "nodemailer": "^6.7.0",
     "nodemon": "^2.0.13",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "uuidv4": "^6.2.12"
   },
   "name": "morgo",
   "description": "<!--Banner-->\r ![Project Banner](https://github.com/Nishtha0801/Margo/blob/main/images/logo.png)",
@@ -18,7 +20,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
