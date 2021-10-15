@@ -58,6 +58,7 @@ $("#join-form").submit(async function (e) {
 });
 $("#leave").click(function (e) {
   leave();
+  window.location.href = "/";
 });
 async function join() {
   // Add an event listener to play remote tracks when remote user publishes.
@@ -149,6 +150,7 @@ async function subscribe(user, mediaType) {
 }
 
 function handleUserPublished(user, mediaType) {
+  $(".head").hide();
   const id = user.uid;
   remoteUsers[id] = user;
   usersCnt++;
@@ -169,5 +171,6 @@ function handleUserUnpublished(user) {
     $("#remote-playerlist").show();
   } else {
     $("#remote-playerlist").hide();
+    $(".head").show();
   }
 }

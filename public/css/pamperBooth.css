@@ -35,6 +35,7 @@ Navbar Started
     background-color:var(--pallette-skin);
     display:flex;
     flex-direction: row;
+    z-index: 100;
 }
 
 #website-logo{
@@ -58,7 +59,7 @@ li{
     position:absolute;
     width:800px;
     height:28px; 
-    left:586px;
+    left:510px;
     top:28px;
 }
 
@@ -101,7 +102,7 @@ li{
     margin-right: 16px;
 }
 
-.shop{
+.shop,.call{
     font-family: var(--font-Karla);
     font-size: 20px;
     line-height:28px;

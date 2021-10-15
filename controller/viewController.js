@@ -83,6 +83,6 @@ module.exports = {
     getTracker,
     getProfile,
     getForum,
-    getConnect
+    getConnect,
     getVideoCall
 }

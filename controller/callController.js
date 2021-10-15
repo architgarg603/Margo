@@ -27,7 +27,7 @@ const callHandler = async (req, res) => {
     });
 
     res.status(200).json({
-        id:id
+        id,link
     })
   } catch (err) {
       console.log(err)

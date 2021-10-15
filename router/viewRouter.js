@@ -9,7 +9,7 @@ const {
   getProfile,
   getForum,
   getConnect,
-  // getVideoCall
+  getVideoCall,
 } = require("../controller/viewController")
 const express = require("express");
 const { protectRoute } = require("../controller/authController");
