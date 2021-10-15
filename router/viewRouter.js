@@ -8,6 +8,7 @@ const {
   getTracker,
   getProfile,
   getForum,
+  // getVideoCall
 } = require("../controller/viewController")
 const express = require("express");
 const { protectRoute } = require("../controller/authController");
@@ -23,6 +24,7 @@ viewRouter.get("/tracker",getTracker)
 viewRouter.get("/profile",getProfile)
 viewRouter.get("/forum",getForum)
 viewRouter.get("", getLanding)
+// viewRouter.get("/videoCall",getVideoCall)
 
 module.exports = viewRouter
 

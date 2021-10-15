@@ -58,6 +58,14 @@ const getForum = (req, res) => {
   }
 };
 
+// const getVideoCall = (req, res) => {
+//   if(req.id){
+//     res.render("videoCall.ejs");
+//   }else{
+//     res.redirect("/signin")
+//   }
+// };
+
 module.exports = {
     getBlog,
     getCart,
@@ -67,5 +75,6 @@ module.exports = {
     getSignin,
     getTracker,
     getProfile,
-    getForum
+    getForum,
+    // getVideoCall
 }
