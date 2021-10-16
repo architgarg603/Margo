@@ -39,8 +39,7 @@ As a part of 'Self-Care', Menstrual Health is as crucial as taking care of your 
 
 ## Landing Page
 <p float="left">
-<img src="https://user-images.githubusercontent.com/73781304/136733264-c46c452b-eb2f-45c6-b4d7-7a164a8d95c1.png" width="450px">
-<img src="https://user-images.githubusercontent.com/73781304/136759874-04b73865-8618-46b9-bbc1-c1d5b947496d.png" width="450px">
+<img src="https://user-images.githubusercontent.com/73781304/136733264-c46c452b-eb2f-45c6-b4d7-7a164a8d95c1.png" width="450px"><img src="https://user-images.githubusercontent.com/73781304/136759874-04b73865-8618-46b9-bbc1-c1d5b947496d.png" width="450px">
 </p>
 
 
