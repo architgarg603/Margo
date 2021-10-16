@@ -12,12 +12,11 @@
     <script type="text/javascript">
       function sendEmail() {
         var receiverId = document.querySelector("input").value;
-        console.log(receiverId);
         var obj = {
           Host: "smtp.elasticemail.com",
           Username: "simransaigal247@gmail.com",
           Password: "C09B147FF9C9075171B205679AB40B3D1C12",
-          To: "",
+          To:receiverId ,
           From: "architg603@gmail.com",
           Subject: "Hello, your favourite person needs you :puppy-face:",
           Body: "Hello Human! <br><br> We would like to let you know your dear one is suffering from horrible period cramps. <br> <b>Pro tip:</b> Don't go near her or else you will awake a deadly monster and regret the decision for your entire life. <br> But she needs you right now. No worries, Team Margo is here with suggestions specially for you to make her feel better, amazing and beautiful like she is. Here are some things you can do for her right now: <br><br> 1. Get some chocolates for her. Trust us, that works. <br> 2. Hot water bags. They are literally God's own creation. <br> 3. Her favorite games. She is overloading with emotions, let her win this time soldier :wink: <br> <br>Oh, and, most importantly, tell her how much you love her. <br> <br><b> You are amazing. Cheers!</br> <br> <i>Team Margo</i>",
