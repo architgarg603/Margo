@@ -76,7 +76,7 @@ The web application can be improved by adding the following features:
 
 ## Landing Page
 <p float="left">
-<img src="https://user-images.githubusercontent.com/73781304/136733264-c46c452b-eb2f-45c6-b4d7-7a164a8d95c1.png" width="400px"><img src="https://user-images.githubusercontent.com/73781304/136759874-04b73865-8618-46b9-bbc1-c1d5b947496d.png" width="400px" align="right" >
+<img src="https://user-images.githubusercontent.com/73781304/136733264-c46c452b-eb2f-45c6-b4d7-7a164a8d95c1.png" width="400px"><img src="https://user-images.githubusercontent.com/73781304/137598456-4a1156b9-9cce-498e-b7a3-183c47c0949c.png" width="400px" align="right" >
 </p>
 <hr>
 
