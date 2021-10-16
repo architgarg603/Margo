@@ -11,7 +11,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 70px;
     color: #FA9F91;
 }
@@ -20,6 +20,7 @@
     border-radius:10px;
     color: #FA9F91;
     outline:none;
+    margin-top: 25%;
     padding:3%;
     font-family: Roboto;
     font-size: 1rem;
@@ -33,7 +34,7 @@
 .video-submit{
     color: #FA9F91;
     right: 24%;
-    top: 8px;
+    top: 69%;
     position: absolute;
 }
 .video-img{
