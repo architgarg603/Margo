@@ -35,6 +35,43 @@ As a part of 'Self-Care', Menstrual Health is as crucial as taking care of your 
 
 [(Back to top)](#table-of-contents)
 
+
+# Tech Stack
+1. Frontend - HTML, CSS, Javascript, Bootstrap
+2. Backend - Express, Node mailer
+3. API used - Sawo labs, Agora
+4. Machine Learning - Python
+5. UI/UX Designing - Figma / Photoshop 
+6. Motion Designing - Adobe Premiere Pro / Adobe After Effects
+7. Others - Git/Github, Postman
+
+The web application is built with HTML, CSS and JavaScript. We have used SAWO API, Agora, Spotify API, self-built APIs, machine learning models and web scraping to power our web application. 
+
+[(Back to top)](#table-of-contents)
+
+# Challenges Faced
+
+"If you are not facing challenges while developing an application, you are not considering every possible case for a better experience of your users."
+
+During the development process we faced the following challenges: 
+1. In the given time constraint, the development of the complete product posed a major challenge for us. But it allowed us to understand the essence of Time Management and Organised Working. 
+2. The deployment of APIs for the articles on Heroku presented a lot of issues. However, thanks to online communities, StackOverflow, we were able to find resources that helped us in successfully deploying the APIs.
+3.  Integration of API to the web page was also a challenge for us but eventually, we were able to conquer the challenge.
+
+All these challenges were less of challenges and more of lessons, lessons to help us have an even better development process in the future so that we can incorporate the customers' requests and requirements easily and efficiently. 
+
+[(Back to top)](#table-of-contents)
+
+# Future Scope
+The web application can be improved by adding the following features:
+1. More personalized and featured Discussion Forum
+2. Extensive network for shopping the products
+3. Doctor and Gynaecologist appointment network
+4. Use Symbl.ai to process chats and video call to know about user health and mood then suggest things accordingly.
+
+[(Back to top)](#table-of-contents)
+
+
 # Website Screenshots
 
 ## Landing Page
@@ -116,41 +153,6 @@ As a part of 'Self-Care', Menstrual Health is as crucial as taking care of your 
 
 
 
-
-[(Back to top)](#table-of-contents)
-
-# Tech Stack
-1. Frontend - HTML, CSS, Javascript, Bootstrap
-2. Backend - Express, Node mailer
-3. API used - Sawo labs, Agora
-4. Machine Learning - Python
-5. UI/UX Designing - Figma / Photoshop 
-6. Motion Designing - Adobe Premiere Pro / Adobe After Effects
-7. Others - Git/Github, Postman
-
-The web application is built with HTML, CSS and JavaScript. We have used SAWO API, Agora, Spotify API, self-built APIs, machine learning models and web scraping to power our web application. 
-
-[(Back to top)](#table-of-contents)
-
-# Challenges Faced
-
-"If you are not facing challenges while developing an application, you are not considering every possible case for a better experience of your users."
-
-During the development process we faced the following challenges: 
-1. In the given time constraint, the development of the complete product posed a major challenge for us. But it allowed us to understand the essence of Time Management and Organised Working. 
-2. The deployment of APIs for the articles on Heroku presented a lot of issues. However, thanks to online communities, StackOverflow, we were able to find resources that helped us in successfully deploying the APIs.
-3.  Integration of API to the web page was also a challenge for us but eventually, we were able to conquer the challenge.
-
-All these challenges were less of challenges and more of lessons, lessons to help us have an even better development process in the future so that we can incorporate the customers' requests and requirements easily and efficiently. 
-
-[(Back to top)](#table-of-contents)
-
-# Future Scope
-The web application can be improved by adding the following features:
-1. More personalized and featured Discussion Forum
-2. Extensive network for shopping the products
-3. Doctor and Gynaecologist appointment network
-4. Use Symbl.ai to process chats and video call to know about user health and mood then suggest things accordingly.
 
 [(Back to top)](#table-of-contents)
 
