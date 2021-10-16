@@ -45,7 +45,7 @@ As a part of 'Self-Care', Menstrual Health is as crucial as taking care of your 
 
 ## Send Notifications to Loved Ones 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/73781304/136757446-9a6f8281-b5b1-40ca-b2c0-3d2ab9c5cff2.png" width="400px"> <img src="https://res.cloudinary.com/pooja-gera/image/upload/v1631470342/margo-readme-assets/email_u6mhmt.png" width="400px" align="right"  >
+<img src="https://user-images.githubusercontent.com/73781304/136757446-9a6f8281-b5b1-40ca-b2c0-3d2ab9c5cff2.png" width="400px" height="200px" ><img src="https://res.cloudinary.com/pooja-gera/image/upload/v1631470342/margo-readme-assets/email_u6mhmt.png" width="400px" align="right" height="200px"  >
 </p>
 <hr>
 
@@ -57,14 +57,16 @@ As a part of 'Self-Care', Menstrual Health is as crucial as taking care of your 
 
 ## Period Tracker
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/73781304/136760268-b942e577-e3a5-46be-8984-411f470f231c.png" width="400px">  <img src="https://user-images.githubusercontent.com/73781304/136760446-db25d0f4-25f2-4a61-bf0e-21cc974a7576.png" width="400px" align="right"  >
+  <img src="https://user-images.githubusercontent.com/73781304/136760268-b942e577-e3a5-46be-8984-411f470f231c.png" width="400px" height="200px" >  <img src="https://user-images.githubusercontent.com/73781304/136760446-db25d0f4-25f2-4a61-bf0e-21cc974a7576.png" width="400px" align="right" height="200px" >
   <hr>
 
-  <img src="https://user-images.githubusercontent.com/73781304/136760571-f263b2fd-9135-4da6-b00c-d0e408004646.png" width="400px">  <img src="https://user-images.githubusercontent.com/73781304/136760635-bc418908-cacb-4076-8cb0-672e25a8ba6a.png" width="400px" align="right"  >
+  <img src="https://user-images.githubusercontent.com/73781304/136760571-f263b2fd-9135-4da6-b00c-d0e408004646.png" width="400px" height="200px" >  <img src="https://user-images.githubusercontent.com/73781304/136760635-bc418908-cacb-4076-8cb0-672e25a8ba6a.png" width="400px" height="200px" align="right"  >
   <hr>
-  <img src="https://user-images.githubusercontent.com/73781304/136765214-bc983678-9598-44db-a126-884c9426d9d2.png" width="400px">  <img src="https://user-images.githubusercontent.com/73781304/136765277-8d994556-9c2d-4c97-b880-2eac1981a775.png" width="400px" align="right"  >
+
+  <img src="https://user-images.githubusercontent.com/73781304/136765214-bc983678-9598-44db-a126-884c9426d9d2.png" width="400px" height="200px" >  <img src="https://user-images.githubusercontent.com/73781304/136765277-8d994556-9c2d-4c97-b880-2eac1981a775.png" width="400px"  height="200px" align="right"  >
   <hr>
-  <img src="https://user-images.githubusercontent.com/73781304/136765347-f5ba3853-79b0-4024-955c-871e92ad474b.png" width="400px">
+
+  <img src="https://user-images.githubusercontent.com/73781304/136765347-f5ba3853-79b0-4024-955c-871e92ad474b.png" width="400px" height="200px" >
 </p>
 <hr>
 
