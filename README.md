@@ -1,66 +1,51 @@
-<!--Banner-->
-![Project Banner](https://user-images.githubusercontent.com/57831888/137576604-3a0ae9a0-43ff-4ec9-a8e6-afcaf7a61f46.png)
+Margo is a product created uniquely for females to track their periods, notify their loved ones about their mood, discuss and chat with other females for common menstrual issues and shop for menstrual hygiene products. 
+<br><br>
+Margo was initiated because one of our teammate experienced distress during her menstrual cycle and all she wanted was to listen to some good music and talk to her friends. 
 
-# Margo - Menstrual Health and Hygiene
+## PASSWORDLESS AUTHENTICATION USING SAWOLABS API 
 
-As a part of 'Self-Care', Menstrual Health is as crucial as taking care of your day-to-day activities. Margo is a web app created to provide females a personalized companion to follow their period cycle, fertility, or pregnancy. With an accurate period and ovulation predictor, mood swings monitor, and pamper booth, Margo can act as a true health companion.  
+Margo is powered by passwordless authentication system of **SawoLabs API**. Users get to experience a hassle-free login system by just entering their email addresses and the one time password they receive on their emails. No more remembering and forgetting passwords! 
 
-<b> Motivation: </b> The onset of menstruation coincides with new opportunities and vulnerabilities. Poor menstrual hygiene is one of the major reasons for the high prevalence of Reproductive Tract Infections and contributes significantly to female morbidity. But a proper track record of the menstrual cycle can help reduce many such problems.
+## PERIOD TRACKER 
 
-<b> Solved Problems: </b> Period Tracking can help avoid an unplanned pregnancy or even help determine the right time for a baby. For women who are trying to avoid pregnancy, it can be used as natural birth control. The menstrual cycle is a direct indicator of overall health, and periods are the body's way of telling that things are working as they should. 
+The period tracker is one of the main features of this application. It offers you a nice visual display and keeps a track of your menstrual cycle, predicts your next menstrual cycles and offers you a chance to edit your cycle and period length. 
 
-<b> Learnings: </b> Through project Margo, we learned about the various aspects of Menstrual Health and Hygiene and the process of making static web pages to building and deploying full-stack web applications.
+## PAMPER BOOTH 
+
+The pamper booth has specially been built because each woman deserves everything. When women are menstruating, the pain of the period cramps becomes unbearable at times. The pamper booth offers two unique features: 
+1. **Mood based playlists** : Spotify playlists are generated based on the mood you have for the day. There are four options to choose from - in pain, okayish, good and, like a queen. 
+2. **Notifying your loved ones** : There is an option to email your loved ones by typing their email in the input form. An email with instructions on how you can take care of your loved one will be sent to that email address.  
+
+## DISCUSSION FORUM 
+
+The discussion forum is powered by a custom built API by the team which is powered by **machine learning** where profane words have been censored. The aim of this discussion forum is to create a safe space for all the ladies to openly discuss their issues and concerns regarding their menstrual health and hygiene. 
+<br> 
+The discussion form is primarily built on the belief of "one for all and all for one". 
+
+## MENSTRUAL BLOG 
+
+We have built another API which grabs articles from the internet regarding menstrual hygiene and displays them on our website to increase the awareness and the knowledge of the women visiting our web application. 
+
+## SHOP 
+
+The Margo shop is home to a plethora of products. Excellent quality sanitary napkins, pantyliners, menstrual cups, tampons, intimate washing solutions and a lot more available at the best prices here. The shop is going to function like any other e-commerce platform which becomes the basis of our **business model**. 
+
+## VIDEO CALL USING AGORA.IO API
+
+To offer the women a chance to connect with their loved ones and/or someone from the discussion forum, we have integrated instant video calling system using agora.io API where one user can call the other user and upon the acceptance of the call, both of them will be connected and can have a live discussion amongst themselves. 
+
+## TECH STACK 
+1. **APIs** - SawoLabs API, Agora.io API, custom-built APIs for detecting profane words on the discussion forum, extracting news articles related to menstruation and generating mood-based playlists. 
+2. **Tools** - GitHub, Postman and Figma. 
+3. **Languages** - HTML, CSS, JavaScript, Node.JS, Python
+4. **Hosting Platform** - Heroku 
 
 
-
-<img src="https://image.flaticon.com/icons/png/512/1384/1384060.png" alt="youtube-icon" width="50px"> [Watch the Demo on Youtube](https://youtu.be/nOLCR9j6yk8 ) 
-
-# Table of contents
-
-- [Features of the Application (With Demo)](#features-of-the-application-with-demo)
-- [Website Screenshots](#website-screenshots)
-- [Tech Stack](#tech-stack)
-- [Challenges Faced](#challenges-faced)
-- [Future Scope](#future-scope)
-- [Support and Contact](#support-and-contact)
-
-# Features of the Application
-1. Period Tracker:<br> Track your period by answering 3 simple questions and experience beautiful visualisation coupled with personalised period predictions.
-2. Pamper Booth: <br> Down with period cramps? Uplift your mood here. Play music, track your mood and notify your loved ones to get chocolates and warm hot bags.
-3. Spotify Integration: <br> Your music, made just for you. Your playlists are curated based on your taste of music.
-4. Notifications: <br> Get notifications about the onset of your next period and plan things accordingly.
-5. Secure Forum: <br> Post your queries, respond to others’ queries. Our platform detects cuss words and filters them out making your experience wholesome.
-6. Shop: <br> For all your menstrual hygiene needs. Sanitary napkins, tampons, sustainable hygiene products - we got them all.
-7. Video Call: Call you loved one using Agora API when you feel low.
-
-[(Back to top)](#table-of-contents)
-
-
-# Tech Stack
-1. Frontend - HTML, CSS, Javascript, Bootstrap
-2. Backend - Express, Node mailer
-3. API used - Sawo labs, Agora
-4. Machine Learning - Python
-5. UI/UX Designing - Figma / Photoshop 
-6. Motion Designing - Adobe Premiere Pro / Adobe After Effects
-7. Others - Git/Github, Postman
-
-The web application is built with HTML, CSS and JavaScript. We have used SAWO API, Agora, Spotify API, self-built APIs, machine learning models and web scraping to power our web application. 
-
-[(Back to top)](#table-of-contents)
-
-# Challenges Faced
-
-"If you are not facing challenges while developing an application, you are not considering every possible case for a better experience of your users."
-
-During the development process we faced the following challenges: 
-1. In the given time constraint, the development of the complete product posed a major challenge for us. But it allowed us to understand the essence of Time Management and Organised Working. 
-2. The deployment of APIs for the articles on Heroku presented a lot of issues. However, thanks to online communities, StackOverflow, we were able to find resources that helped us in successfully deploying the APIs.
-3.  Integration of API to the web page was also a challenge for us but eventually, we were able to conquer the challenge.
-
-All these challenges were less of challenges and more of lessons, lessons to help us have an even better development process in the future so that we can incorporate the customers' requests and requirements easily and efficiently. 
-
-[(Back to top)](#table-of-contents)
+## INSTALLATION 
+You can install the app, use and modify it on your system by following the undermentioned steps: 
+1. Clone the repository: ```git clone ```
+2. Install node modules: ```npm install```
+3. Start the server: ```npm start```
 
 # Future Scope
 The web application can be improved by adding the following features:
