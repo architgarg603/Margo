@@ -12,7 +12,7 @@ const callHandler = async (req, res) => {
       secure: false, // true for 465, false for other ports
       auth: {
         user: "architg603@gmail.com", // generated ethereal user
-        pass: "pchgajwpxjnduanc",
+        pass: "",
       },
     });
 
@@ -51,7 +51,7 @@ const sendMail = async (req, res) => {
     secure: false, // true for 465, false for other ports
     auth: {
       user: "architg603@gmail.com", // generated ethereal user
-      pass: "pchgajwpxjnduanc",
+      pass: "",
     },
   });
 
